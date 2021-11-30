@@ -1,0 +1,16 @@
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\bin\Debug\net5.0\mobileInformation.exe
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\bin\Debug\net5.0\mobileInformation.deps.json
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\bin\Debug\net5.0\mobileInformation.runtimeconfig.json
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\bin\Debug\net5.0\mobileInformation.runtimeconfig.dev.json
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\bin\Debug\net5.0\mobileInformation.dll
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\bin\Debug\net5.0\ref\mobileInformation.dll
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\bin\Debug\net5.0\mobileInformation.pdb
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\obj\Debug\net5.0\mobileInformation.csproj.AssemblyReference.cache
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\obj\Debug\net5.0\mobileInformation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\obj\Debug\net5.0\mobileInformation.AssemblyInfoInputs.cache
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\obj\Debug\net5.0\mobileInformation.AssemblyInfo.cs
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\obj\Debug\net5.0\mobileInformation.csproj.CoreCompileInputs.cache
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\obj\Debug\net5.0\mobileInformation.dll
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\obj\Debug\net5.0\ref\mobileInformation.dll
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\obj\Debug\net5.0\mobileInformation.pdb
+D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mobileInformation\obj\Debug\net5.0\mobileInformation.genruntimeconfig.cache

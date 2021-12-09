@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace mobileInformation
 {
-    class addMobile
+    class addMobile 
     {
         class Mobile
         {
@@ -59,6 +59,33 @@ namespace mobileInformation
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue..");
             Console.ReadLine();
+
+            Console.WriteLine("List all of the mobiles:");
+            Console.WriteLine("");
+
+            if (mobiles.Count > 0)
+            {
+                foreach (var mobile in mobiles)
+                {
+                    Console.WriteLine("----------------------------------");
+                    Console.WriteLine($"Name: { mobile.Name}");
+                    Console.WriteLine($"Company name: { mobile.Cname}");
+                    Console.WriteLine($"Color: { mobile.Color}");
+                    Console.WriteLine($"Price: { mobile.Price}");
+                    Console.WriteLine($"Date of launched: { mobile.Year}");
+                    Console.WriteLine($"Version: { mobile.Version}");
+                } // foreach close
+            } // if close
+            else
+            {
+                Console.WriteLine("Sorry, you did not enter any mobile information yet.");
+            }// else close
+            Console.WriteLine("");
+            Console.WriteLine("Press any key to continue..");
+            Console.ReadLine();
+
         }
+
+
     }
 }

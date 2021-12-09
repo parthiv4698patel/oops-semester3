@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace mobileInformation
 {
-    class viewMobile
+    class viewMobile 
     {
         public class Mobile
         {

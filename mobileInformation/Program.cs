@@ -26,6 +26,7 @@ namespace mobileInformation
                     mb.info();
                     mb.menu_list();
                     amb.Menu_options();
+                 
                 }
                 else if(choice == 2)
                 {

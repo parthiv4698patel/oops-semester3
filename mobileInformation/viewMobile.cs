@@ -8,33 +8,13 @@ namespace mobileInformation
 {
     class viewMobile 
     {
-        public class Mobile
-        {
-            // constructor
-            public Mobile(string name, string cname, string color, double price, DateTime year, string version)
-            {
-                Name = name;
-                Cname = cname;
-                Color = color;
-                Price = price;
-                Year = year;
-                Version = version;
-            } // constructor close
 
-            // getter setter
-            public string Name { get; set; }
-            public string Cname { get; set; }
-            public string Color { get; set; }
-            public double Price { get; set; }
-            public DateTime Year { get; set; }
-            public string Version { get; set; }
-
-
-        }
+        List<mobileInformation.addMobile> mobiles = mobileInformation.addDetail.;
         
         public void view_mobile()
         {
-            var mobiles = new List<Mobile>();
+            
+           
             Console.WriteLine("List all of the mobiles:");
             Console.WriteLine("");
 

@@ -17,9 +17,7 @@ namespace mobileInformation
                 Price = price;
                 Year = year;
                 Version = version;
-            } // constructor close
-
-            // getter setter
+            } 
             public string Name { get; set; }
             public string Cname { get; set; }
             public string Color { get; set; }
@@ -27,7 +25,7 @@ namespace mobileInformation
             public DateTime Year { get; set; }
             public string Version { get; set; }
 
-             
+       
 
     }
 }

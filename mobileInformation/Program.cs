@@ -8,8 +8,9 @@ namespace mobileInformation
         {
             // Created object of class mobile
             mobile mb = new mobile();
-            addMobile amb = new addMobile();
-            viewMobile vmb = new viewMobile();
+            addDetail adm = new addDetail();
+                                                                                                                                
+            //viewMobile vmb = new viewMobile();
             // Declared two methods to print decription and menu
             while (true)
             {
@@ -25,14 +26,22 @@ namespace mobileInformation
                 {
                     mb.info();
                     mb.menu_list();
-                    amb.Menu_options();
-                 
+                    adm.Menu_options();
+
+
                 }
                 else if(choice == 2)
                 {
                     mb.info();
                     mb.menu_list();
-                    vmb.view_mobile();
+                    adm.view_mobile();
+                }
+                else if (choice == 3)
+                {
+                    exit_list el = new exit_list();
+                    el.exitList();
+                    break;
+                    
                 }
             
             }

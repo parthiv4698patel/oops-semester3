@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,7 +35,10 @@ namespace mobileInformation
 
             Console.Write("Version: ");
             var version = Console.ReadLine();
-            
+
+
+           
+
             mobilein.Add(new addMobile(name, cname, color, price, year, version));
 
             Console.WriteLine("");
@@ -42,6 +46,33 @@ namespace mobileInformation
             Console.ReadLine();
 
 
+        }
+
+        public void txtlist()
+        {
+
+            String path = @"D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mbinformation.txt";
+            StreamWriter sw = File.AppendText(path);
+
+            sw.WriteLine("This is a List of Mobile Information");
+            if (mobilein.Count > 0)
+            {
+                foreach (var mobiles in mobilein)
+                {
+                    sw.WriteLine("\n");
+                    sw.WriteLine("-----------------------------------------------------------------");
+                    sw.WriteLine("Mobile Name: " + mobiles.Name);
+                    sw.WriteLine("Company Name: " + mobiles.Cname);
+                    sw.WriteLine("Color: " + mobiles.Color);
+                    sw.WriteLine("Price: " + mobiles.Price);
+                    sw.WriteLine("Date of launched: " + mobiles.Year);
+                    sw.WriteLine("Version: " + mobiles.Version);
+                    sw.WriteLine("-----------------------------------------------------------------");
+
+                    sw.Close();
+                }
+            }
+           
         }
 
         public void view_mobile()

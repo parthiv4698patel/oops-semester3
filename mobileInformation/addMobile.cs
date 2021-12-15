@@ -9,6 +9,7 @@ namespace mobileInformation
     class addMobile
     {
        
+            // constructor
             public addMobile(string name, string cname, string color, double price, DateTime year, string version)
             {
                 Name = name;
@@ -18,6 +19,8 @@ namespace mobileInformation
                 Year = year;
                 Version = version;
             } 
+
+        // getter setter methods
             public string Name { get; set; }
             public string Cname { get; set; }
             public string Color { get; set; }
@@ -27,5 +30,5 @@ namespace mobileInformation
 
        
 
-    }
-}
+    } // class
+} // namespace

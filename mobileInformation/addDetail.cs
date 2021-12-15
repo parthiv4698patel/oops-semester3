@@ -8,13 +8,12 @@ using System.Threading.Tasks;
 
 namespace mobileInformation
 {
+    // derived class : base class
     class addDetail : mobile
     {
          List<addMobile> mobilein = new List<addMobile>();
         public void Menu_options()
         {
-
-
             Console.WriteLine("Add a new mobile");
             Console.WriteLine("");
 
@@ -36,18 +35,15 @@ namespace mobileInformation
             Console.Write("Version: ");
             var version = Console.ReadLine();
 
-
-           
-
             mobilein.Add(new addMobile(name, cname, color, price, year, version));
 
-            Console.WriteLine("");
-            Console.WriteLine("Press any key to continue..");
-            Console.ReadLine();
+            anykey();
 
 
         }
 
+        //I tried this is for option 4 to view all mobile list but it will work in my pc because I set path in my pc.
+        /*
         public void txtlist()
         {
 
@@ -72,9 +68,24 @@ namespace mobileInformation
                     sw.Close();
                 }
             }
-           
+
         }
 
+        public void txtviewlist()
+        {
+            string text = System.IO.File.ReadAllText(@"D:\Cambrian\Semester 3\IOT 1030\oops-semester3\mbinformation.txt");
+            System.Console.WriteLine(text);
+        }
+        
+        */
+        public void anykey()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("Press any key to continue..");
+            Console.ReadLine();
+        }
+
+        
         public void view_mobile()
         {
 

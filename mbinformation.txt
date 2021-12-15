@@ -9,3 +9,14 @@ Price: 2500
 Date of launched: 11-Sep-21 12:00:00 AM
 Version: Android
 -----------------------------------------------------------------
+This is a List of Mobile Information
+
+
+-----------------------------------------------------------------
+Mobile Name: Iphone 13
+Company Name: apple
+Color: color
+Price: 25000
+Date of launched: 11-Oct-20 12:00:00 AM
+Version: IOS
+-----------------------------------------------------------------
